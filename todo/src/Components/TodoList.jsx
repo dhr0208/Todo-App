@@ -8,23 +8,6 @@ export function TodoList() {
     isCompleted: false
   }]);
   const [inputValue, setInputValue] = useState('')
-  const data = [
-    {
-      id: 1,
-      name: "Task1",
-      isCompleted: false,
-    },
-    {
-      id: 1,
-      name: "Task2",
-      isCompleted: false,
-    },
-    {
-      id: 1,
-      name: "Task3",
-      isCompleted: false,
-    },
-  ];
 
   const addTodos = () => {
     setTodos([...todos, {
